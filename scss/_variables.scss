@@ -1,10 +1,12 @@
 // Variables
 
 // Colors
+
 $blue:                #0064be !default;
 $yellow:              #ffc800 !default;
 $green:               #6ec882 !default;
 $red:                 #ff5028 !default;
+
 // Color Variations
 $blue-light:          #0082c8 !default;
 $blue-dark:           #0050aa !default;
@@ -43,3 +45,6 @@ $brand-grey-light:        $grey-light !default;
 $brand-grey-lighter:      $grey-lighter !default;
 
 // Fonts
+
+$font-family-sans-serif: 'Monserrat', 'Helevetia Neue', Arial, sans-serif !default;
+$font-family-base:        $font-family-sans-serif !default;
