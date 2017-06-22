@@ -1,0 +1,13 @@
+// Background color variations
+
+@include bg-variant('.bg-primary', $brand-primary);
+
+@include bg-variant('.bg-accent', $brand-accent);
+
+@include bg-variant('.bg-success', $brand-success);
+
+@include bg-variant('.bg-alert', $brand-alert);
+
+@include bg-variant('.bg-grey-light', $brand-grey-light);
+
+@include bg-variant('.bg-grey-dark', $brand-grey-dark);

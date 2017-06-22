@@ -1,6 +1,24 @@
 // Variables
 
 // Colors
+$blue:                #0064be !default;
+$yellow:              #ffc800 !default;
+$green:               #6ec882 !default;
+$red:                 #ff5028 !default;
+// Color Variations
+$blue-light:          #0082c8 !default;
+$blue-dark:           #0050aa !default;
 
-// Interface Colors
-$brand-primary: #0064be !default;
+// Greyscale
+$grey-dark:           #1e2832 !default;
+$grey:                #5a6e82 !default;
+$grey-light:          #8caabe !default;
+$grey-lighter:        #f0f0f5 !default;
+
+// Semantic Colors
+$brand-primary:       $blue !default;
+$brand-accent:        $yellow !default;
+$brand-success:       $green !default;
+$brand-alert:         $red !default;
+$brand-grey-dark:     $grey !default;
+$brand-grey-light:    $grey-lighter !default;
