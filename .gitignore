@@ -11,6 +11,7 @@
 *.swp
 *.vi
 *.zip
+*.sketch
 *~
 
 # Folders to ignore

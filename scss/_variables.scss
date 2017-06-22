@@ -8,6 +8,12 @@ $red:                 #ff5028 !default;
 // Color Variations
 $blue-light:          #0082c8 !default;
 $blue-dark:           #0050aa !default;
+$yellow-light:        #ffdc32 !default;
+$yellow-dark:         #fab400 !default;
+$green-light:         #8cdca0 !default;
+$green-dark:          #64b482 !default;
+$red-light:           #ff6e3c !default;
+$red-dark:            #f03c28 !default;
 
 // Greyscale
 $grey-dark:           #1e2832 !default;
@@ -16,9 +22,22 @@ $grey-light:          #8caabe !default;
 $grey-lighter:        #f0f0f5 !default;
 
 // Semantic Colors
-$brand-primary:       $blue !default;
-$brand-accent:        $yellow !default;
-$brand-success:       $green !default;
-$brand-alert:         $red !default;
-$brand-grey-dark:     $grey !default;
-$brand-grey-light:    $grey-lighter !default;
+$brand-primary:           $blue !default;
+$brand-accent:            $yellow !default;
+$brand-success:           $green !default;
+$brand-alert:             $red !default;
+
+$brand-primary-light:     $blue-light !default;
+$brand-accent-light:      $yellow-light !default;
+$brand-success-light:     $green-light !default;
+$brand-alert-light:       $red-light !default;
+
+$brand-primary-dark:      $blue-dark !default;
+$brand-accent-dark:       $yellow-dark !default;
+$brand-success-dark:      $green-dark !default;
+$brand-alert-dark:        $red-dark !default;
+
+$brand-grey-dark:         $grey-dark !default;
+$brand-grey:              $grey !default;
+$brand-grey-light:        $grey-light !default;
+$brand-grey-lighter:      $grey-lighter !default;

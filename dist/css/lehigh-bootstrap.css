@@ -1,19 +1,49 @@
 .bg-primary {
   background-color: #0064be !important; }
 
+.bg-primary-light {
+  background-color: #0082c8 !important; }
+
+.bg-primary-dark {
+  background-color: #0050aa !important; }
+
 .bg-accent {
   background-color: #ffc800 !important; }
+
+.bg-accent-light {
+  background-color: #ffdc32 !important; }
+
+.bg-accent-dark {
+  background-color: #fab400 !important; }
 
 .bg-success {
   background-color: #6ec882 !important; }
 
+.bg-success-light {
+  background-color: #8cdca0 !important; }
+
+.bg-success-dark {
+  background-color: #64b482 !important; }
+
 .bg-alert {
   background-color: #ff5028 !important; }
 
-.bg-grey-light {
-  background-color: #f0f0f5 !important; }
+.bg-alert-light {
+  background-color: #ff6e3c !important; }
+
+.bg-alert-dark {
+  background-color: #f03c28 !important; }
 
 .bg-grey-dark {
+  background-color: #1e2832 !important; }
+
+.bg-grey {
   background-color: #5a6e82 !important; }
+
+.bg-grey-light {
+  background-color: #8caabe !important; }
+
+.bg-grey-lighter {
+  background-color: #f0f0f5 !important; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */
