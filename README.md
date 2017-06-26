@@ -26,5 +26,5 @@ Add this into the `<head>` tag of your main html page.
 To get the font, Montserrat, either download the font or add this to the `<head>` tag.
 
 ```
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,700" rel="stylesheet">
 ```
