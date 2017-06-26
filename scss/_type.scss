@@ -1,0 +1,61 @@
+//Headings and their subheadings
+h1 {
+  &.lhi-header {
+    background: linear-gradient(90deg, $header-gradient-start 0%, $header-gradient-end 100%);
+    color: $white;
+    display: block;
+    font-size: $section-header-font-size;
+    height: $section-header-height;
+    line-height: $section-header-line-height;
+    text-indent: $section-header-indent;
+    width: $section-header-width;
+  }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $headings-color;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  margin-bottom: $headings-margin-bottom;
+}
+
+h1, h2, h6,
+.h1, .h2, .h6 {
+  letter-spacing: $headings-letter-spacing-lg;
+}
+
+h3, h4, h5,
+.h3, .h4, .h5 {
+  letter-spacing: $headings-letter-spacing-sm;
+}
+
+h1, .h1 {
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+}
+
+h2, .h2 {
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+}
+
+h4, .h4 {
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+}
+
+h5, .h5 {
+  font-size: $h5-font-size;
+  line-height: $h5-line-height;
+}
+
+h6, .h6 {
+  font-size: $h6-font-size;
+  line-height: $h6-line-height;
+}
