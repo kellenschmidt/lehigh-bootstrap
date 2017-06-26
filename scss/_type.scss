@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
   margin-bottom: $headings-margin-bottom;
+  margin-left: $header-offset;
 
   &:before {
     background-color: $brand-accent;
@@ -140,13 +141,13 @@ ul, ol {
   letter-spacing: $letter-spacing-sm;
   line-height: $p-line-height;
   list-style-position: outside;
+  margin-left: $list-item-indent;
   margin-top: $list-item-padding;
-}
+  padding: $list-item-indent;
 
-li {
-  margin-bottom: $list-item-padding;
-  margin-left: 0;
-  margin-right: 0;
+  li {
+    margin-bottom: $list-item-padding;
+  }
 }
 
 // Non heading text

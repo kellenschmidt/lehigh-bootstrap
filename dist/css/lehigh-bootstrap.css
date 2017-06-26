@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5, h6,
   color: inherit;
   font-family: inherit;
   font-weight: 500;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-left: -1rem; }
   h1:before, h2:before, h3:before, h4:before, h5:before, h6:before,
   .h1:before, .h2:before, .h3:before, .h4:before, .h5:before, .h6:before {
     background-color: #ffc800;
@@ -150,12 +151,11 @@ ul, ol {
   letter-spacing: 0.0625rem;
   line-height: 1.25rem;
   list-style-position: outside;
-  margin-top: 0.625rem; }
-
-li {
-  margin-bottom: 0.625rem;
-  margin-left: 0;
-  margin-right: 0; }
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+  padding: 0.625rem; }
+  ul li, ol li {
+    margin-bottom: 0.625rem; }
 
 p, i, a, strong {
   font-size: 0.875rem;

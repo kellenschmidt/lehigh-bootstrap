@@ -128,6 +128,7 @@ $smalls-color:           $grey !default;
 $headings-letter-spacing-lg: .125rem !default;
 $headings-letter-spacing-sm: .0625rem !default;
 $header-decorator-width: .625rem !default;
+$header-offset:          -1rem !default;
 $before-small-spacing-lg:   .23rem !default;
 $before-small-spacing-sm:   .2rem !default;
 
@@ -135,7 +136,10 @@ $letter-spacing-sm:      $headings-letter-spacing-sm !default;
 
 // Lists
 
+$list-item-indent:      .625rem !default;
 $list-item-padding:     .625rem !default;
+$bullet-height:         .375rem !default;
+$bullet-width:          .625rem !default;
 
 // Non heading Text
 
