@@ -125,3 +125,11 @@ $headings-letter-spacing-sm: .0625rem !default;
 $header-decorator-width: .625rem !default;
 $before-small-spacing-lg:   .23rem !default;
 $before-small-spacing-sm:   .2rem !default;
+
+$letter-spacing-sm:      $headings-letter-spacing-sm !default;
+
+// Non heading Text
+
+$a-font-size:    .875rem !default;
+$a-font-weight:  300 !default;
+$a-line-height:  1.25rem !default;

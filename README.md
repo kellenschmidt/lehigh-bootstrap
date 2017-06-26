@@ -20,6 +20,11 @@ grunt
 Add this into the `<head>` tag of your main html page.
 
 ```
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="./dist/css/lehigh-bootstrap.min.css">
+```
+
+To get the font, Montserrat, either download the font or add this to the `<head>` tag.
+
+```
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 ```

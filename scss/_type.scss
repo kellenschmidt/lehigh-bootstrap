@@ -130,3 +130,10 @@ h6, .h6 {
   line-height: $h6-line-height;
   text-transform: uppercase;
 }
+
+p {
+  color: $brand-grey;
+  font-size: $a-font-size;
+  font-weight: $a-font-weight;
+  letter-spacing: $letter-spacing-sm;
+}
