@@ -84,6 +84,8 @@ $body-color:    $blue !default;
 $font-family-sans-serif: 'Montserrat', 'Helevetia Neue', Arial, sans-serif !default;
 $font-family-base:        $font-family-sans-serif !default;
 
+$font-weight-bold: bold !default;
+
 $section-header-font-size: 1.875rem !default;
 $h1-font-size: 2.25rem !default;
 $h2-font-size: 1.875rem !default;
@@ -91,6 +93,10 @@ $h3-font-size: 1.5rem !default;
 $h4-font-size: 1.25rem !default;
 $h5-font-size: 1.125rem !default;
 $h6-font-size: .875rem !default;
+$h1-small-font-size: 1.5rem !default;
+$h2-small-font-size: 1.25rem !default;
+$h3-small-font-size: 1.125rem !default;
+$h4-small-font-size: .875rem !default;
 
 $section-header-line-height: 3.75rem !default;
 $h1-line-height: 3.125rem !default;
@@ -99,6 +105,10 @@ $h3-line-height: 1.875rem !default;
 $h4-line-height: 1.875rem !default;
 $h5-line-height: 1.25rem !default;
 $h6-line-height: 1.25rem !default;
+$h1-small-line-height: 1.875rem !default;
+$h2-small-line-height: 1.875rem !default;
+$h3-small-line-height: 1.25rem !default;
+$h4-small-line-height: 1.25rem !default;
 
 $section-header-height:  3.75rem !default;
 $section-header-width:   100% !default;
@@ -106,7 +116,12 @@ $section-header-indent:  3.75rem !default;
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
 $headings-font-weight:   500 !default;
+$headings-small-font-weight:   300 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
+$smalls-color:           $grey !default;
 $headings-letter-spacing-lg: .125rem !default;
 $headings-letter-spacing-sm: .0625rem !default;
+$header-decorator-width: .625rem !default;
+$before-small-spacing-lg:   .23rem !default;
+$before-small-spacing-sm:   .2rem !default;
