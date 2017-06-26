@@ -6,7 +6,7 @@ This is an extension for Bootstrap written in Sass. It was created to be used in
 
 ## Installation
 
-To just be able to use this extension, download the lehigh-bootstrap.min.css file from /dist/css.
+To just be able to use this extension, download the dist folder or clone the repository.
 
 In order to make edits, clone the repository and make any desired changes to the .scss files under the scss folder. To compile and minify the sass files, cd into the cloned repository and run in the command line:
 

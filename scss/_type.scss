@@ -1,4 +1,4 @@
-//Headings and their subheadings
+// Headings and their subheadings
 h1 {
   &.lhi-header {
     background: linear-gradient(90deg, $header-gradient-start 0%, $header-gradient-end 100%);
@@ -131,9 +131,52 @@ h6, .h6 {
   text-transform: uppercase;
 }
 
+// Lists
+
+ul, ol {
+  color: $brand-grey;
+  font-size: $p-font-size;
+  font-weight: $font-weight-normal;
+  letter-spacing: $letter-spacing-sm;
+  line-height: $p-line-height;
+  list-style-position: outside;
+  margin-top: $list-item-padding;
+}
+
+li {
+  margin-bottom: $list-item-padding;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// Non heading text
+
+p, i, a, strong {
+  font-size: $p-font-size;
+  letter-spacing: $letter-spacing-sm;
+  line-height: $p-line-height;
+}
+
+p, i {
+  font-weight: $p-font-weight;
+}
+
+a, strong {
+  font-weight: $font-weight-strong;
+}
+
 p {
   color: $brand-grey;
-  font-size: $a-font-size;
-  font-weight: $a-font-weight;
-  letter-spacing: $letter-spacing-sm;
+}
+
+i {
+  color: $brand-success-light;
+}
+
+a {
+  color: $brand-primary-light;
+}
+
+strong {
+  color: $brand-grey-dark;
 }

@@ -143,10 +143,41 @@ h6, .h6 {
   line-height: 1.25rem;
   text-transform: uppercase; }
 
-p {
+ul, ol {
   color: #5a6e82;
   font-size: 0.875rem;
-  font-weight: 300;
-  letter-spacing: 0.0625rem; }
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
+  line-height: 1.25rem;
+  list-style-position: outside;
+  margin-top: 0.625rem; }
+
+li {
+  margin-bottom: 0.625rem;
+  margin-left: 0;
+  margin-right: 0; }
+
+p, i, a, strong {
+  font-size: 0.875rem;
+  letter-spacing: 0.0625rem;
+  line-height: 1.25rem; }
+
+p, i {
+  font-weight: 300; }
+
+a, strong {
+  font-weight: 500; }
+
+p {
+  color: #5a6e82; }
+
+i {
+  color: #8cdca0; }
+
+a {
+  color: #0082c8; }
+
+strong {
+  color: #1e2832; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */

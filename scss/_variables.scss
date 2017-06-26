@@ -85,8 +85,10 @@ $font-family-sans-serif: 'Montserrat', 'Helevetia Neue', Arial, sans-serif !defa
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-weight-bold: bold !default;
+$font-weight-strong: 500 !default;
+$font-weight-normal: normal !default;
+$font-weight-light: 300 !default;
 
-$section-header-font-size: 1.875rem !default;
 $h1-font-size: 2.25rem !default;
 $h2-font-size: 1.875rem !default;
 $h3-font-size: 1.5rem !default;
@@ -98,7 +100,6 @@ $h2-small-font-size: 1.25rem !default;
 $h3-small-font-size: 1.125rem !default;
 $h4-small-font-size: .875rem !default;
 
-$section-header-line-height: 3.75rem !default;
 $h1-line-height: 3.125rem !default;
 $h2-line-height: 2.5rem !default;
 $h3-line-height: 1.875rem !default;
@@ -110,15 +111,19 @@ $h2-small-line-height: 1.875rem !default;
 $h3-small-line-height: 1.25rem !default;
 $h4-small-line-height: 1.25rem !default;
 
+$section-header-font-size: 1.875rem !default;
+$section-header-line-height: 3.75rem !default;
 $section-header-height:  3.75rem !default;
 $section-header-width:   100% !default;
 $section-header-indent:  3.75rem !default;
+
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
-$headings-font-weight:   500 !default;
-$headings-small-font-weight:   300 !default;
+$headings-font-weight:   $font-weight-strong !default;
+$headings-small-font-weight:   $font-weight-light !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
+
 $smalls-color:           $grey !default;
 $headings-letter-spacing-lg: .125rem !default;
 $headings-letter-spacing-sm: .0625rem !default;
@@ -128,8 +133,12 @@ $before-small-spacing-sm:   .2rem !default;
 
 $letter-spacing-sm:      $headings-letter-spacing-sm !default;
 
+// Lists
+
+$list-item-padding:     .625rem !default;
+
 // Non heading Text
 
-$a-font-size:    .875rem !default;
-$a-font-weight:  300 !default;
-$a-line-height:  1.25rem !default;
+$p-font-size:    .875rem !default;
+$p-font-weight:  300 !default;
+$p-line-height:  1.25rem !default;
