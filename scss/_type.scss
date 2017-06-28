@@ -21,15 +21,19 @@ h1, h2, h3, h4, h5, h6,
   color: $headings-color;
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
-  margin-bottom: $headings-margin-bottom;
-  margin-left: $header-offset;
+  padding-left: 0;
 
   &:before {
     background-color: $brand-accent;
     content: '\00a0';
     display: inline-block;
     height: inherit;
+    margin-left: $header-offset;
     width: $header-decorator-width;
+  }
+
+  &.dark {
+    color: $white;
   }
 }
 
@@ -45,6 +49,7 @@ h1, h2, h3, h4,
       content: '\00a0';
       display: inline-block;
       height: inherit;
+      // margin-left: $header-offset;
       width: $header-decorator-width;
     }
   }
@@ -55,6 +60,7 @@ h1, h2,
   small {
 
     &:before {
+      margin-left: $header-offset;
       margin-right: $before-small-spacing-lg;
     }
   }
@@ -65,8 +71,16 @@ h3, h4,
   small {
 
     &:before {
+      margin-left: $header-offset;
       margin-right: $before-small-spacing-sm;
     }
+  }
+}
+
+h5, h6,
+.h5, .h6 {
+  &:before {
+    margin-right: $before-small-spacing-sm;
   }
 }
 

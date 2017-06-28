@@ -67,15 +67,18 @@ h1, h2, h3, h4, h5, h6,
   color: inherit;
   font-family: inherit;
   font-weight: 500;
-  margin-bottom: 0.5rem;
-  margin-left: -1rem; }
+  padding-left: 0; }
   h1:before, h2:before, h3:before, h4:before, h5:before, h6:before,
   .h1:before, .h2:before, .h3:before, .h4:before, .h5:before, .h6:before {
     background-color: #ffc800;
     content: '\00a0';
     display: inline-block;
     height: inherit;
+    margin-left: -1rem;
     width: 0.625rem; }
+  h1.dark, h2.dark, h3.dark, h4.dark, h5.dark, h6.dark,
+  .h1.dark, .h2.dark, .h3.dark, .h4.dark, .h5.dark, .h6.dark {
+    color: #fff; }
 
 h1 small, h2 small, h3 small, h4 small,
 .h1 small, .h2 small, .h3 small, .h4 small {
@@ -92,10 +95,16 @@ h1 small, h2 small, h3 small, h4 small,
 
 h1 small:before, h2 small:before,
 .h1 small:before, .h2 small:before {
+  margin-left: -1rem;
   margin-right: 0.23rem; }
 
 h3 small:before, h4 small:before,
 .h3 small:before, .h4 small:before {
+  margin-left: -1rem;
+  margin-right: 0.2rem; }
+
+h5:before, h6:before,
+.h5:before, .h6:before {
   margin-right: 0.2rem; }
 
 h1, h2, h6,
