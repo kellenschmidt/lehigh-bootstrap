@@ -68,6 +68,18 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   padding-left: 0; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
+  .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
+    color: #5a6e82;
+    display: block;
+    font-weight: 300; }
+    h1 small:before, h2 small:before, h3 small:before, h4 small:before, h5 small:before, h6 small:before,
+    .h1 small:before, .h2 small:before, .h3 small:before, .h4 small:before, .h5 small:before, .h6 small:before {
+      background-color: #ffc800;
+      content: '\00a0';
+      display: inline-block;
+      height: inherit;
+      width: 0.625rem; }
   h1:before, h2:before, h3:before, h4:before, h5:before, h6:before,
   .h1:before, .h2:before, .h3:before, .h4:before, .h5:before, .h6:before {
     background-color: #ffc800;
@@ -79,19 +91,9 @@ h1, h2, h3, h4, h5, h6,
   h1.dark, h2.dark, h3.dark, h4.dark, h5.dark, h6.dark,
   .h1.dark, .h2.dark, .h3.dark, .h4.dark, .h5.dark, .h6.dark {
     color: #fff; }
-
-h1 small, h2 small, h3 small, h4 small,
-.h1 small, .h2 small, .h3 small, .h4 small {
-  color: #5a6e82;
-  display: block;
-  font-weight: 300; }
-  h1 small:before, h2 small:before, h3 small:before, h4 small:before,
-  .h1 small:before, .h2 small:before, .h3 small:before, .h4 small:before {
-    background-color: #ffc800;
-    content: '\00a0';
-    display: inline-block;
-    height: inherit;
-    width: 0.625rem; }
+    h1.dark small, h2.dark small, h3.dark small, h4.dark small, h5.dark small, h6.dark small,
+    .h1.dark small, .h2.dark small, .h3.dark small, .h4.dark small, .h5.dark small, .h6.dark small {
+      color: #fff; }
 
 h1 small:before, h2 small:before,
 .h1 small:before, .h2 small:before {

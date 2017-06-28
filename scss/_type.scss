@@ -23,22 +23,6 @@ h1, h2, h3, h4, h5, h6,
   font-weight: $headings-font-weight;
   padding-left: 0;
 
-  &:before {
-    background-color: $brand-accent;
-    content: '\00a0';
-    display: inline-block;
-    height: inherit;
-    margin-left: $header-offset;
-    width: $header-decorator-width;
-  }
-
-  &.dark {
-    color: $white;
-  }
-}
-
-h1, h2, h3, h4,
-.h1, .h2, .h3, .h4 {
   small {
     color: $smalls-color;
     display: block;
@@ -51,6 +35,23 @@ h1, h2, h3, h4,
       height: inherit;
       // margin-left: $header-offset;
       width: $header-decorator-width;
+    }
+  }
+
+  &:before {
+    background-color: $brand-accent;
+    content: '\00a0';
+    display: inline-block;
+    height: inherit;
+    margin-left: $header-offset;
+    width: $header-decorator-width;
+  }
+
+  &.dark {
+    color: $white;
+
+    small {
+      color: $white;
     }
   }
 }
