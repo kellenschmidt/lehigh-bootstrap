@@ -148,9 +148,9 @@
   </div>
   <div class="container mt-5">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <i>incididunt ut labore et dolore</i> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong>Duis aute</strong> irure dolor <a href="#">in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br><br>
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <i>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</i>, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <i>incididunt ut labore et dolore</i> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong>Duis aute</strong>      irure dolor <a href="#">in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <i>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</i>, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
   </div>
   <div class="container mt-4">
@@ -173,7 +173,7 @@
           <li>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </li>
-      </ul>
+        </ul>
     </ul>
     <ol style="margin-top:-2rem">
       <li>
@@ -476,17 +476,63 @@
   </div>
 
   <div class="container mt-5">
-    <div class="row">
+    <div class="row mt-2">
       <input type="radio" name="default">Default/Hover
     </div>
-    <div class="row">
+    <div class="row mt-2">
       <input type="radio" name="disabled" disabled>Disabled
     </div>
-    <div class="row">
+    <div class="row mt-2">
       <input type="radio" checked="checked" name="checked">Checked/Checked Hover
     </div>
-    <div class="row">
+    <div class="row mt-2">
       <input type="radio" checked="checked" name="checked-disabled" disabled>Checked Disabled
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row mt-2">
+      <input type="checkbox" name="default">Default/Hover
+    </div>
+    <div class="row mt-2">
+      <input type="checkbox" name="disabled" disabled>Disabled
+    </div>
+    <div class="row mt-2">
+      <input type="checkbox" checked="checked" name="checked">Checked/Checked Hover
+    </div>
+    <div class="row mt-2">
+      <input type="checkbox" checked="checked" name="checked-disabled" disabled>Checked Disabled
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row mt-3">
+      <input type="text" name="default" placeholder="Default">
+    </div>
+    <div class="row mt-3">
+      <input type="text" name="active" placeholder="Active">
+    </div>
+    <div class="row mt-3">
+      <input type="text" checked="filled" name="checked" placeholder="Filled">
+    </div>
+    <div class="row mt-3">
+      <input type="text" checked="filled-correct" name="checked-disabled" placeholder="Filled Correct">
+    </div>
+    <div class="row mt-3">
+      <input type="text" checked="filled-incorrect" name="checked-disabled" placeholder="Filled Incorrect">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="dropdown mt-5">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Default Placeholder
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item">Option 1</a>
+        <a class="dropdown-item">Option 2</a>
+        <a class="dropdown-item">Option 3</a>
+      </div>
     </div>
   </div>
 

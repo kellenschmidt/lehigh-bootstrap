@@ -47,8 +47,11 @@
   background-color: #f0f0f5 !important; }
 
 body {
+  background-color: #fff;
   color: #0064be;
-  font-family: "Montserrat", "Helevetia Neue", Arial, sans-serif; }
+  font-family: "Montserrat", "Helevetia Neue", Arial, sans-serif;
+  height: 100%;
+  padding-bottom: 2.75rem; }
 
 h1.lhi-header {
   background: linear-gradient(90deg, #0071c1 0%, #008fcb 100%);
@@ -67,7 +70,7 @@ h1, h2, h3, h4, h5, h6,
   color: inherit;
   font-family: inherit;
   font-weight: 500;
-  padding-left: 0; }
+  margin: 0.5rem 0; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
     color: #5a6e82;
@@ -137,6 +140,8 @@ h3, .h3 {
   h3 small, .h3 small {
     font-size: 1.125rem;
     line-height: 1.25rem; }
+  h3:before, .h3:before {
+    margin-right: 0.18rem; }
 
 h4, .h4 {
   font-size: 1.25rem;
@@ -144,6 +149,8 @@ h4, .h4 {
   h4 small, .h4 small {
     font-size: 0.875rem;
     line-height: 1.25rem; }
+  h4:before, .h4:before {
+    margin-right: 0.225rem; }
 
 h5, .h5 {
   font-size: 1.125rem;
@@ -190,5 +197,20 @@ a {
 
 strong {
   color: #1e2832; }
+
+table {
+  border-radius: 0.25rem;
+  width: 100%; }
+
+th, td {
+  padding: 0.625rem; }
+
+th {
+  background-color: #6e8ca0; }
+
+tr {
+  border: 0.0625rem solid #f0f0f5; }
+  tr:nth-child(odd) {
+    background-color: #fafafa; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */

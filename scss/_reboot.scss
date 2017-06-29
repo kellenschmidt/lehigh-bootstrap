@@ -1,4 +1,7 @@
 body {
+  background-color: $body-bg-color;
   color: $body-color;
   font-family: $font-family-base;
+  height: $body-height;
+  padding-bottom: $body-padding-top;
 }

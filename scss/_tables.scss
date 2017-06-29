@@ -1,0 +1,25 @@
+// Table Styling
+
+table {
+  border-radius: $table-border-radius;
+  width: $table-width;
+}
+
+th, td {
+  padding: $table-padding;
+}
+
+th {
+  background-color: $table-header-color;
+}
+
+tr {
+  border: $table-border-width solid $table-border-color;
+
+  &:nth-child(odd) {
+    background-color: $table-row-color;
+  }
+}
+
+
+// Text for the table
