@@ -200,13 +200,15 @@ strong {
 
 table {
   border-radius: 0.25rem;
+  box-shadow: 0 0.3125rem 0.625rem 0 #1e2832;
   width: 100%; }
 
 th, td {
   padding: 0.625rem; }
 
 th {
-  background-color: #6e8ca0; }
+  background-color: #6e8ca0;
+  color: #fff; }
 
 tr {
   border: 0.0625rem solid #f0f0f5; }

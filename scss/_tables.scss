@@ -2,6 +2,7 @@
 
 table {
   border-radius: $table-border-radius;
+  box-shadow: $table-shadow-x $table-shadow-y $table-shadow-blur $table-shadow-spread $table-shadow-color;
   width: $table-width;
 }
 
@@ -11,6 +12,7 @@ th, td {
 
 th {
   background-color: $table-header-color;
+  color: $white;
 }
 
 tr {

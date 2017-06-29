@@ -11,6 +11,7 @@ $white:               #fff !default;
 $table-border-color:  #f0f0f5 !default;
 $table-header-color:  #6e8ca0 !default;
 $table-row-color:     #fafafa !default;
+$table-shadow-color:  #1e2832 !default;
 
 // Color Variations
 $blue-light:          #0082c8 !default;
@@ -164,3 +165,8 @@ $table-width:            100% !default;
 $table-border-width:     .0625rem !default;
 $table-border-radius:    .25rem !default;
 $table-padding:          .625rem !default;
+
+$table-shadow-x:         0 !default;
+$table-shadow-y:         .3125rem !default;
+$table-shadow-blur:      .625rem !default;
+$table-shadow-spread:    0 !default;
