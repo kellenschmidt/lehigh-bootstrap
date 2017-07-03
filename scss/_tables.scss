@@ -2,7 +2,13 @@
 
 table {
   border-radius: $table-border-radius;
+  border-spacing: 0;
   box-shadow: $table-shadow-x $table-shadow-y $table-shadow-blur $table-shadow-spread $table-shadow-color;
+  width: $table-width;
+}
+
+tbody {
+  border-radius: $table-border-radius;
   width: $table-width;
 }
 

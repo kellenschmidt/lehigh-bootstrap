@@ -199,8 +199,15 @@ strong {
   color: #1e2832; }
 
 table {
-  border-radius: 0.25rem;
-  box-shadow: 0 0.3125rem 0.625rem 0 #1e2832;
+  border: 0.0625rem solid #f0f0f5;
+  border-collapse: collapse !important;
+  border-radius: 1rem;
+  border-spacing: 0;
+  box-shadow: 0 0.3125rem 0.625rem 0 rgba(30, 40, 50, 0.1);
+  width: 100%; }
+
+tbody {
+  border-collapse: collapse !important;
   width: 100%; }
 
 th, td {
@@ -211,7 +218,9 @@ th {
   color: #fff; }
 
 tr {
-  border: 0.0625rem solid #f0f0f5; }
+  border-top: 0.0625rem solid #f0f0f5; }
+  tr:first {
+    border: 0; }
   tr:nth-child(odd) {
     background-color: #fafafa; }
 
