@@ -199,28 +199,26 @@ strong {
   color: #1e2832; }
 
 table {
-  border: 0.0625rem solid #f0f0f5;
-  border-collapse: collapse !important;
-  border-radius: 1rem;
-  border-spacing: 0;
   box-shadow: 0 0.3125rem 0.625rem 0 rgba(30, 40, 50, 0.1);
   width: 100%; }
-
-tbody {
-  border-collapse: collapse !important;
-  width: 100%; }
+  table .collapse-content {
+    padding: 0.625rem; }
 
 th, td {
+  font-family: inherit;
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
   padding: 0.625rem; }
 
 th {
   background-color: #6e8ca0;
   color: #fff; }
 
+td {
+  color: #5a6e82; }
+
 tr {
-  border-top: 0.0625rem solid #f0f0f5; }
-  tr:first {
-    border: 0; }
+  border: 0.0625rem solid #f0f0f5; }
   tr:nth-child(odd) {
     background-color: #fafafa; }
 

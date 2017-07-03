@@ -1,24 +1,28 @@
 // Table Styling
 
 table {
-  border-radius: $table-border-radius;
-  border-spacing: 0;
   box-shadow: $table-shadow-x $table-shadow-y $table-shadow-blur $table-shadow-spread $table-shadow-color;
   width: $table-width;
-}
 
-tbody {
-  border-radius: $table-border-radius;
-  width: $table-width;
+  .collapse-content {
+    padding: $table-padding;
+  }
 }
 
 th, td {
+  font-family: inherit;
+  font-weight: $font-weight-normal;
+  letter-spacing: $letter-spacing-sm;
   padding: $table-padding;
 }
 
 th {
   background-color: $table-header-color;
   color: $white;
+}
+
+td {
+  color: $brand-grey;
 }
 
 tr {
@@ -29,5 +33,4 @@ tr {
   }
 }
 
-
-// Text for the table
+// Extra Type Classes
