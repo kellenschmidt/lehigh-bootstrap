@@ -23,6 +23,11 @@ th {
 
 td {
   color: $brand-grey;
+
+  i {
+    color: $brand-grey;
+    padding: 0;
+  }
 }
 
 tr {
@@ -33,4 +38,17 @@ tr {
   }
 }
 
-// Extra Type Classes
+.collapsable {
+  .label {
+    display: inline-block;
+  }
+
+  .subtitle {
+    display: inline-block;
+  }
+
+  .highlight {
+    align-items: flex-end;
+    display: inline-block;
+  }
+}

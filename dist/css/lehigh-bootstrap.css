@@ -216,10 +216,21 @@ th {
 
 td {
   color: #5a6e82; }
+  td i {
+    color: #5a6e82;
+    padding: 0; }
 
 tr {
   border: 0.0625rem solid #f0f0f5; }
   tr:nth-child(odd) {
     background-color: #fafafa; }
+
+.collapsable .label {
+  display: inline-block; }
+.collapsable .subtitle {
+  display: inline-block; }
+.collapsable .highlight {
+  align-items: flex-end;
+  display: inline-block; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */
