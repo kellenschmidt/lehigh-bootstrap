@@ -5,14 +5,16 @@ table {
   box-shadow: $table-shadow-x $table-shadow-y $table-shadow-blur $table-shadow-spread $table-shadow-color;
 
   .collapse-content {
-    padding: $table-padding;
+    padding: $collapse-padding;
   }
 }
 
 th, td {
   padding: $table-padding;
   font-family: inherit;
+  font-size: $p-font-size;
   font-weight: $font-weight-normal;
+  line-height: $p-line-height;
   letter-spacing: $letter-spacing-sm;
 }
 
@@ -56,6 +58,7 @@ tr {
 .collapsable {
   .label {
     display: inline-block;
+    padding-left: $label-padding;
   }
 
   .subtitle {
@@ -65,6 +68,10 @@ tr {
   .highlight {
     display: inline-block;
     float: right;
+  }
+
+  i {
+    color: $brand-grey-light;
   }
 
   span {
