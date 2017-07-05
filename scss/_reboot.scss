@@ -1,7 +1,7 @@
 body {
-  background-color: $body-bg-color;
-  color: $body-color;
-  font-family: $font-family-base;
   height: $body-height;
   padding-bottom: $body-padding-top;
+  font-family: $font-family-base;
+  color: $body-color;
+  background-color: $body-bg-color;
 }

@@ -1,16 +1,16 @@
 // Headings and their subheadings
 h1 {
   &.lhi-header {
-    background: linear-gradient(90deg, $header-gradient-start 0%, $header-gradient-end 100%);
-    color: $white;
     display: block;
-    font-size: $section-header-font-size;
-    height: $section-header-height;
-    line-height: $section-header-line-height;
-    text-indent: $section-header-indent;
     width: $section-header-width;
+    height: $section-header-height;
+    font-size: $section-header-font-size;
+    line-height: $section-header-line-height;
+    color: $white;
+    text-indent: $section-header-indent;
+    background: linear-gradient(90deg, $header-gradient-start 0%, $header-gradient-end 100%);
 
-    &:before {
+    &::before {
       width: 0;
     }
   }
@@ -18,33 +18,32 @@ h1 {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: $headings-color;
+  margin: $headings-margin-bottom $headings-margin-sides;
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
-  margin: $headings-margin-bottom $headings-margin-sides;
+  color: $headings-color;
 
   small {
-    color: $smalls-color;
     display: block;
     font-weight: $headings-small-font-weight;
+    color: $smalls-color;
 
-    &:before {
-      background-color: $brand-accent;
-      content: '\00a0';
+    &::before {
       display: inline-block;
-      height: inherit;
-      // margin-left: $header-offset;
       width: $header-decorator-width;
+      height: inherit;
+      content: "\00a0";
+      background-color: $brand-accent;
     }
   }
 
-  &:before {
-    background-color: $brand-accent;
-    content: '\00a0';
+  &::before {
     display: inline-block;
+    width: $header-decorator-width;
     height: inherit;
     margin-left: $header-offset;
-    width: $header-decorator-width;
+    content: "\00a0";
+    background-color: $brand-accent;
   }
 
   &.dark {
@@ -60,9 +59,9 @@ h1, h2,
 .h1, .h2 {
   small {
 
-    &:before {
-      margin-left: $header-offset;
+    &::before {
       margin-right: $before-small-spacing-lg;
+      margin-left: $header-offset;
     }
   }
 }
@@ -71,16 +70,16 @@ h3, h4,
 .h3, .h4 {
   small {
 
-    &:before {
-      margin-left: $header-offset;
+    &::before {
       margin-right: $before-small-spacing-sm;
+      margin-left: $header-offset;
     }
   }
 }
 
 h5, h6,
 .h5, .h6 {
-  &:before {
+  &::before {
     margin-right: $before-small-spacing-sm;
   }
 }
@@ -124,7 +123,7 @@ h3, .h3 {
     line-height: $h3-small-line-height;
   }
 
-  &:before {
+  &::before {
     margin-right: $h3-offset;
   }
 }
@@ -138,7 +137,7 @@ h4, .h4 {
     line-height: $h4-small-line-height;
   }
 
-  &:before {
+  &::before {
     margin-right: $h4-offset;
   }
 }
@@ -158,15 +157,15 @@ h6, .h6 {
 // Lists
 
 ul, ol {
-  color: $brand-grey;
+  padding: $list-item-indent;
+  margin-top: $list-item-padding;
+  margin-left: $list-item-indent;
   font-size: $p-font-size;
   font-weight: $font-weight-normal;
-  letter-spacing: $letter-spacing-sm;
   line-height: $p-line-height;
+  color: $brand-grey;
+  letter-spacing: $letter-spacing-sm;
   list-style-position: outside;
-  margin-left: $list-item-indent;
-  margin-top: $list-item-padding;
-  padding: $list-item-indent;
 
   li {
     margin-bottom: $list-item-padding;
@@ -177,8 +176,8 @@ ul, ol {
 
 p, i, a, strong {
   font-size: $p-font-size;
-  letter-spacing: $letter-spacing-sm;
   line-height: $p-line-height;
+  letter-spacing: $letter-spacing-sm;
 }
 
 p, i {

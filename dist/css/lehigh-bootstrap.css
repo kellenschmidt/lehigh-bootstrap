@@ -244,4 +244,44 @@ tr {
   display: inline-block;
   float: right; }
 
+.btn {
+  height: 2.5rem;
+  width: 15rem;
+  margin: 0.625rem;
+  font-size: 0.875rem;
+  font-family: "Montserrat", "Helevetia Neue", Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  border-radius: 0.125rem;
+  color: #FFFFFF; }
+
+.btn-lg {
+  height: 3.125rem;
+  width: 31.25rem;
+  font-size: 1rem; }
+
+.btn-sm {
+  height: 1.875rem;
+  width: 4.375rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.0625rem; }
+
+.btn-primary {
+  background: linear-gradient(180deg, #0071C1 0%, #008FCB 100%); }
+
+.btn-alert {
+  background: linear-gradient(180deg, #FF5736 0%, #FF774C 100%); }
+
+.btn-success {
+  background: linear-gradient(180deg, #6EC882 0%, #8cdca0 100%); }
+
+.btn-default {
+  border: 2px solid #8caabe;
+  background-color: #FFFFFF;
+  color: #8caabe; }
+
 /*# sourceMappingURL=lehigh-bootstrap.css.map */

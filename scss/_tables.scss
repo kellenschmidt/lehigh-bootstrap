@@ -1,8 +1,8 @@
 // Table Styling
 
 table {
-  box-shadow: $table-shadow-x $table-shadow-y $table-shadow-blur $table-shadow-spread $table-shadow-color;
   width: $table-width;
+  box-shadow: $table-shadow-x $table-shadow-y $table-shadow-blur $table-shadow-spread $table-shadow-color;
 
   .collapse-content {
     padding: $table-padding;
@@ -10,23 +10,23 @@ table {
 }
 
 th, td {
+  padding: $table-padding;
   font-family: inherit;
   font-weight: $font-weight-normal;
   letter-spacing: $letter-spacing-sm;
-  padding: $table-padding;
 }
 
 th {
-  background-color: $table-header-color;
   color: $white;
+  background-color: $table-header-color;
 }
 
 td {
   color: $brand-grey;
 
   i {
-    color: $brand-grey;
     padding: 0;
+    color: $brand-grey;
     vertical-align: middle;
   }
 

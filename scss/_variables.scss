@@ -33,6 +33,16 @@ $grey-lighter:        #f0f0f5 !default;
 $header-gradient-start:   #0071c1 !default;
 $header-gradient-end:     #008fcb !default;
 
+// Button Gradients
+$btn-primary-gradient-start:    #0071c1 !default;
+$btn-primary-gradient-end:      #008fcb !default;
+
+$btn-alert-gradient-start:      #ff5736 !default;
+$btn-alert-gradient-end:        #ff774c !default;
+
+$btn-success-gradient-start:    $green !default;
+$btn-success-gradient-end:      $green-light !default;
+
 // Semantic Colors
 $brand-primary:           $blue !default;
 $brand-accent:            $yellow !default;
@@ -175,12 +185,12 @@ $table-shadow-spread:    0 !default;
 
 $btn-height:                2.5rem;
 $btn-width:                 15rem;
-$btn-margin:                0.625rem;
-$btn-font-size:             0.875rem;
+$btn-margin:                .625rem;
+$btn-font-size:             .875rem;
 $btn-font-weight:           bold;
-$btn-letter-spacing:        0.125rem;
+$btn-letter-spacing:        .125rem;
 $btn-line-height:           1.25rem;
-$btn-border-radius:         0.125rem;
+$btn-border-radius:         .125rem;
 
 $large-btn-height:          3.125rem;
 $large-btn-width:           31.25rem;
@@ -188,6 +198,8 @@ $large-btn-font-size:       1rem;
 
 $small-btn-height:          1.875rem;
 $small-btn-width:           4.375rem;
-$small-btn-font-size:       0.75rem;
+$small-btn-font-size:       .75rem;
 $small-btn-font-weight:     500;
-$small-btn-letter-spacing:  0.0625rem;
+$small-btn-letter-spacing:  .0625rem;
+
+$default-btn-border:        .125rem;
