@@ -1,0 +1,47 @@
+.btn {
+    height: $btn-height;
+    width: $btn-width;
+    margin: $btn-margin;
+    font-size: $btn-font-size;
+    font-family: $font-family-base;
+    font-weight: $btn-font-weight;
+    letter-spacing: $btn-letter-spacing;
+    text-align: center;
+    line-height: $btn-line-height;
+    text-transform: uppercase;
+    border-radius: $btn-border-radius;
+    color: #FFFFFF
+}
+
+.btn-lg {
+    height: $large-btn-height;
+    width: $large-btn-width;
+    font-size: $large-btn-font-size;
+}
+
+.btn-sm {
+    height: $small-btn-height;
+    width: $small-btn-width;
+    font-size: $small-btn-font-size;
+    font-weight: $small-btn-font-weight;
+    letter-spacing: $small-btn-letter-spacing;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, #0071C1 0%, #008FCB 100%);
+}
+
+.btn-alert {
+    background: linear-gradient(180deg, #FF5736 0%, #FF774C 100%);
+}
+
+.btn-success {
+    background: linear-gradient(180deg, #6EC882 0%, $green-light 100%);
+}
+
+.btn-default {
+    border: 2px solid $grey-light;
+    background-color: #FFFFFF;
+    color: $grey-light;
+}
+
