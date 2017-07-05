@@ -1,0 +1,43 @@
+ul {
+    font-size: $ul-font-size;
+    line-height: $ul-line-height;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1rem;
+    text-indent: -1rem;
+}
+ul > li::before {
+    color: $blue;
+    content: "■  ";  
+    
+}
+
+li > ul > li {
+    margin-left: 0.5rem;    
+    &::before {
+        color: $blue;
+        content: "□  ";
+    }
+}
+
+ol {
+    list-style-type: none;
+    ol {
+        margin-left: 2rem;
+    }
+    li {
+        counter-increment: count-me;
+    }
+    li::before {
+        content: counter(count-me) ". ";
+        color: $blue;
+        display: block;
+        font-size: $ol-li-font-size;
+        font-weight: bold;
+        left: -1.3rem;
+        max-width: 0px;
+        max-height: 0px;
+        position: relative;
+        top: .05rem;
+    }
+}
