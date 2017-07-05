@@ -170,3 +170,24 @@ $table-shadow-x:         0 !default;
 $table-shadow-y:         .3125rem !default;
 $table-shadow-blur:      .625rem !default;
 $table-shadow-spread:    0 !default;
+
+// Buttons
+
+$btn-height:                2.5rem;
+$btn-width:                 15rem;
+$btn-margin:                0.625rem;
+$btn-font-size:             0.875rem;
+$btn-font-weight:           bold;
+$btn-letter-spacing:        0.125rem;
+$btn-line-height:           1.25rem;
+$btn-border-radius:         0.125rem;
+
+$large-btn-height:          3.125rem;
+$large-btn-width:           31.25rem;
+$large-btn-font-size:       1rem;
+
+$small-btn-height:          1.875rem;
+$small-btn-width:           4.375rem;
+$small-btn-font-size:       0.75rem;
+$small-btn-font-weight:     500;
+$small-btn-letter-spacing:  0.0625rem;
