@@ -218,19 +218,30 @@ td {
   color: #5a6e82; }
   td i {
     color: #5a6e82;
-    padding: 0; }
+    padding: 0;
+    vertical-align: middle; }
+  td div {
+    vertical-align: middle; }
 
 tr {
   border: 0.0625rem solid #f0f0f5; }
   tr:nth-child(odd) {
     background-color: #fafafa; }
 
+.navigational span {
+  float: right; }
+.navigational .label {
+  display: inline-block; }
+
 .collapsable .label {
   display: inline-block; }
 .collapsable .subtitle {
   display: inline-block; }
 .collapsable .highlight {
-  align-items: flex-end;
-  display: inline-block; }
+  display: inline-block;
+  float: right; }
+.collapsable span {
+  display: inline-block;
+  float: right; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */
