@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg-primary {
   background-color: #0064be !important; }
 
@@ -288,5 +289,41 @@ tr {
   color: #8caabe;
   background-color: #fff;
   border: 0.125rem solid #8caabe; }
+
+ul {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1rem;
+  text-indent: -1rem; }
+
+ul > li::before {
+  color: #0064be;
+  content: "■  "; }
+
+li > ul > li {
+  margin-left: 0.5rem; }
+  li > ul > li::before {
+    color: #0064be;
+    content: "□  "; }
+
+ol {
+  list-style-type: none; }
+  ol ol {
+    margin-left: 2rem; }
+  ol li {
+    counter-increment: count-me; }
+  ol li::before {
+    content: counter(count-me) ". ";
+    color: #0064be;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    left: -1.3rem;
+    max-width: 0px;
+    max-height: 0px;
+    position: relative;
+    top: .05rem; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */
