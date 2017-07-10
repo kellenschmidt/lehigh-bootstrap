@@ -171,9 +171,6 @@ $p-line-height:  1.25rem !default;
 
 // Tables
 
-$collapse-padding:       0 2.25rem !default;
-$label-padding:          .3125rem !default;
-
 $table-width:            100% !default;
 $table-border-width:     .0625rem !default;
 $table-border-radius:    1rem !default;
@@ -212,3 +209,15 @@ $default-btn-border:        .125rem;
 $ul-font-size: .875rem;
 $ul-line-height: 1rem;
 $ol-li-font-size: .75rem;
+
+// Inputs 
+
+$checkbox-border: 1px solid $brand-grey;
+$checkbox-letter-spacing: 1px;
+$checkbox-border-radius: 2px;
+$checkbox-height: 20px;
+$checkbox-width: 20px;
+$checkbox-margin: 0 10px 0 0;
+$checkbox-icon-font-size: 18px;
+$checkbox-icon-margin: 0px 2px 2px 0px;
+$checkbox-disabled-opacity: .3;
