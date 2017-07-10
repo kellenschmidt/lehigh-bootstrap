@@ -1,26 +1,28 @@
-input[type=checkbox] 
+// Checkboxes and radio buttons
+input[type=checkbox], 
+input[type=radio] 
 {
   display:none;
   
   & + label {
     color: $brand-grey;
     font-weight: $font-weight-light;
-    letter-spacing: $checkbox-letter-spacing;
+    letter-spacing: $input-letter-spacing;
     
     span {
       background: $white;
       border: $checkbox-border;
       border-radius: $checkbox-border-radius;
-      height: $checkbox-height;
-      width: $checkbox-width;
+      height: $input-height;
+      width: $input-width;
       display: inline-block;
-      margin: $checkbox-margin;
+      margin: $input-margin;
       vertical-align: sub;
 
       i {
         color: $white;
-        font-size: $checkbox-icon-font-size;
-        margin: $checkbox-icon-margin;
+        font-size: $input-icon-font-size;
+        margin: $input-icon-margin;
       }
 
       &:hover {
@@ -47,16 +49,33 @@ input[type=checkbox]
 
   &:disabled + label {
     color: $brand-grey;
-    opacity: $checkbox-disabled-opacity;
+    opacity: $input-disabled-opacity;
     
     span {
       border-color: $brand-grey;
-      opacity: $checkbox-disabled-opacity;
+      opacity: $input-disabled-opacity;
     }
   }
 
   &:disabled:checked + label span {
     background-color: $brand-grey;
-    opacity: $checkbox-disabled-opacity;
+    opacity: $input-disabled-opacity;
+  }
+}
+
+// Radio button specific
+input[type=radio] 
+{
+  & + label span {
+    border-radius: $radio-border-radius;
+  }
+
+  &:checked + label span {
+    border: $radio-border;
+    background-color: $white
+  }
+
+  &:disabled:checked + label span {
+    border: $radio-border;
   }
 }

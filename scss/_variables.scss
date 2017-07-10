@@ -192,44 +192,48 @@ $arrow-padding:          .0625rem !default;
 
 // Buttons
 
-$btn-height:                2.5rem;
-$btn-width:                 15rem;
-$btn-margin:                .625rem;
-$btn-font-size:             .875rem;
-$btn-font-weight:           bold;
-$btn-letter-spacing:        .125rem;
-$btn-line-height:           1.25rem;
-$btn-border-radius:         .125rem;
+$btn-height:                2.5rem !default;
+$btn-width:                 15rem !default;
+$btn-margin:                .625rem !default;
+$btn-font-size:             .875rem !default;
+$btn-font-weight:           bold !default;
+$btn-letter-spacing:        .125rem !default;
+$btn-line-height:           1.25rem !default;
+$btn-border-radius:         .125rem !default;
 
-$large-btn-height:          3.125rem;
-$large-btn-width:           31.25rem;
-$large-btn-font-size:       1rem;
+$large-btn-height:          3.125rem !default;
+$large-btn-width:           31.25rem !default;
+$large-btn-font-size:       1rem !default;
 
-$small-btn-height:          1.875rem;
-$small-btn-width:           4.375rem;
-$small-btn-font-size:       .75rem;
-$small-btn-font-weight:     500;
-$small-btn-letter-spacing:  .0625rem;
+$small-btn-height:          1.875rem !default;
+$small-btn-width:           4.375rem !default;
+$small-btn-font-size:       .75rem !default;
+$small-btn-font-weight:     500 !default;
+$small-btn-letter-spacing:  .0625rem !default;
 
-$default-btn-border:        .125rem;
+$default-btn-border:        .125rem !default;
 
 $btn-block-width:           100% !default;
 $btn-block-margin:          .625rem 0 !default;
 
 // Lists
 
-$ul-font-size: .875rem;
-$ul-line-height: 1rem;
-$ol-li-font-size: .75rem;
+$ul-font-size: .875rem !default;
+$ul-line-height: 1rem !default;
+$ol-li-font-size: .75rem !default;
 
 // Inputs 
 
-$checkbox-border: 1px solid $brand-grey;
-$checkbox-letter-spacing: 1px;
-$checkbox-border-radius: 2px;
-$checkbox-height: 20px;
-$checkbox-width: 20px;
-$checkbox-margin: 0 10px 0 0;
-$checkbox-icon-font-size: 18px;
-$checkbox-icon-margin: 0px 2px 2px 0px;
-$checkbox-disabled-opacity: .3;
+$input-letter-spacing: 1px !default;
+$input-height: 20px !default;
+$input-width: 20px !default;
+$input-margin: 0 10px 0 0 !default;
+$input-icon-font-size: 18px !default;
+$input-icon-margin: 0px 2px 2px 0px !default;
+$input-disabled-opacity: .3;
+
+$checkbox-border: 1px solid $brand-grey !default;
+$checkbox-border-radius: 2px !default;
+
+$radio-border: 5px solid $brand-primary; 
+$radio-border-radius: 10px !default;
