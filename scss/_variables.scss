@@ -169,7 +169,14 @@ $p-font-size:    .875rem !default;
 $p-font-weight:  300 !default;
 $p-line-height:  1.25rem !default;
 
+$subtitle-size:  .625rem !default;
+
 // Tables
+
+$collapse-padding:       1rem 2.25rem !default;
+$label-padding:          .3125rem !default;
+$highlight-padding:      .625rem !default;
+$data-padding:           .625rem .625rem .625rem 0 !default;
 
 $table-width:            100% !default;
 $table-border-width:     .0625rem !default;
@@ -180,6 +187,8 @@ $table-shadow-x:         0 !default;
 $table-shadow-y:         .3125rem !default;
 $table-shadow-blur:      .625rem !default;
 $table-shadow-spread:    0 !default;
+
+$arrow-padding:          .0625rem !default;
 
 // Buttons
 
@@ -203,6 +212,9 @@ $small-btn-font-weight:     500;
 $small-btn-letter-spacing:  .0625rem;
 
 $default-btn-border:        .125rem;
+
+$btn-block-width:           100% !default;
+$btn-block-margin:          .625rem 0 !default;
 
 // Lists
 

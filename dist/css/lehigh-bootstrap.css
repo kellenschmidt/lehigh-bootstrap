@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg-primary {
   background-color: #0064be !important; }
 
@@ -202,7 +203,7 @@ table {
   width: 100%;
   box-shadow: 0 0.3125rem 0.625rem 0 rgba(30, 40, 50, 0.1); }
   table .collapse-content {
-    padding: 0 2.25rem; }
+    padding: 1rem 2.25rem; }
 
 th, td {
   padding: 0.625rem;
@@ -239,15 +240,44 @@ tr {
   display: inline-block;
   padding-left: 0.3125rem; }
 .collapsable .subtitle {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: #8caabe; }
 .collapsable .highlight {
   display: inline-block;
-  float: right; }
+  float: right;
+  padding-right: 0.625rem;
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: #0064be; }
 .collapsable i {
   color: #8caabe; }
 .collapsable span {
   display: inline-block;
-  float: right; }
+  float: right;
+  padding-left: 0.0625rem; }
+  .collapsable span .material-icons {
+    color: #5a6e82; }
+.collapsable .title {
+  font-size: 0.625rem;
+  font-weight: normal;
+  color: #8caabe; }
+.collapsable .description {
+  color: #0064be; }
+  .collapsable .description em {
+    font-style: normal;
+    font-weight: 500; }
+.collapsable .data-section {
+  display: inline-block;
+  padding: 0.625rem 0.625rem 0.625rem 0; }
+  .collapsable .data-section .data {
+    font-style: normal;
+    font-weight: 500;
+    color: #6e8ca0; }
+    .collapsable .data-section .data em {
+      font-style: normal;
+      color: #6ec882; }
 
 .btn {
   width: 15rem;
@@ -288,5 +318,45 @@ tr {
   color: #8caabe;
   background-color: #fff;
   border: 0.125rem solid #8caabe; }
+
+.btn-block {
+  width: 100%;
+  margin: 0.625rem 0; }
+
+ul {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1rem;
+  text-indent: -1rem; }
+
+ul > li::before {
+  color: #0064be;
+  content: "■  "; }
+
+li > ul > li {
+  margin-left: 0.5rem; }
+  li > ul > li::before {
+    color: #0064be;
+    content: "□  "; }
+
+ol {
+  list-style-type: none; }
+  ol ol {
+    margin-left: 2rem; }
+  ol li {
+    counter-increment: count-me; }
+  ol li::before {
+    content: counter(count-me) ". ";
+    color: #0064be;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    left: -1.3rem;
+    max-width: 0px;
+    max-height: 0px;
+    position: relative;
+    top: .05rem; }
 
 /*# sourceMappingURL=lehigh-bootstrap.css.map */

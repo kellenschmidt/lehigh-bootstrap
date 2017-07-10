@@ -44,3 +44,8 @@
   background-color: $white;
   border: $default-btn-border solid $grey-light;
 }
+
+.btn-block {
+  width: $btn-block-width;
+  margin: $btn-block-margin;
+}

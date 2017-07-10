@@ -60,15 +60,58 @@ tr {
 
   .subtitle {
     display: inline-block;
+    font-size: $subtitle-size;
+    font-weight: $font-weight-strong;
+    color: $brand-grey-light;
   }
 
   .highlight {
     display: inline-block;
     float: right;
+    padding-right: $highlight-padding;
+    font-size: $subtitle-size;
+    font-weight: $font-weight-strong;
+    color: $brand-primary;
   }
 
   span {
     display: inline-block;
     float: right;
+    padding-left: $arrow-padding;
+
+    .material-icons {
+      color: $brand-grey;
+    }
+  }
+
+  .title {
+    font-size: $subtitle-size;
+    font-weight: $font-weight-normal;
+    color: $brand-grey-light;
+  }
+
+  .description {
+    color: $brand-primary;
+
+    em {
+      font-style: normal;
+      font-weight: $font-weight-strong;
+    }
+  }
+
+  .data-section {
+    display: inline-block;
+    padding: $data-padding;
+
+    .data {
+      font-style: normal;
+      font-weight: $font-weight-strong;
+      color: $table-header-color;
+
+      em {
+        font-style: normal;
+        color: $brand-success;
+      }
+    }
   }
 }
