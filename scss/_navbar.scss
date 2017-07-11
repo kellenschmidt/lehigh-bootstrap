@@ -1,0 +1,26 @@
+.navbar {
+  background: linear-gradient(90deg, $header-gradient-start 0%, $header-gradient-end 100%);
+
+  .navbar-nav {
+    width: $navbar-width;
+
+    i {
+      display: inline-block;
+      color: $white;
+      vertical-align: middle;
+    }
+
+    a {
+      display: inline-block;
+      font-size: $nav-font-size;
+      font-weight: $font-weight-light;
+      line-height: $h2-line-height;
+      color: $white;
+      vertical-align: middle;
+    }
+
+    span {
+      float: right;
+    }
+  }
+}

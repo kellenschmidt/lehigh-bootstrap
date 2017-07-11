@@ -359,4 +359,22 @@ ol {
     position: relative;
     top: .05rem; }
 
+.navbar {
+  background: linear-gradient(90deg, #0071c1 0%, #008fcb 100%); }
+  .navbar .navbar-nav {
+    width: 100%; }
+    .navbar .navbar-nav i {
+      display: inline-block;
+      color: #fff;
+      vertical-align: middle; }
+    .navbar .navbar-nav a {
+      display: inline-block;
+      font-size: 1.25rem;
+      font-weight: 300;
+      line-height: 2.5rem;
+      color: #fff;
+      vertical-align: middle; }
+    .navbar .navbar-nav span {
+      float: right; }
+
 /*# sourceMappingURL=lehigh-bootstrap.css.map */
